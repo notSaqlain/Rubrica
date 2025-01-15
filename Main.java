@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
         // Elenchi di nomi, cognomi e soprannomi
-        List<String> nomi = leggiDaFile("nomi.txt");
-        List<String> cognomi = leggiDaFile("cognomi.txt");
-        List<String> soprannomi = leggiDaFile("soprannomi.txt");
+        List<String> nomi = leggiDaFile("Nomi.txt");
+        List<String> cognomi = leggiDaFile("Cognomi.txt");
+        List<String> soprannomi = leggiDaFile("Soprannomi.txt");
 
         if (nomi.isEmpty() || cognomi.isEmpty() || soprannomi.isEmpty()) {
             System.out.println("Errore: uno o più file sono vuoti o non esistono.");
