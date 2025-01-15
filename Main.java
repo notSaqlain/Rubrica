@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Rubrica {
+public class Main {
 
     public static void main(String[] args) {
         // Elenchi di nomi, cognomi e soprannomi
